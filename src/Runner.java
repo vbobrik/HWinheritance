@@ -19,8 +19,8 @@ public class Runner {
         System.out.println("Площадь куба: " + cube1.calcSquare());
 
         System.out.println("-----------------");
-        Shape shape = new Shape("Myshape" , "black");
-        System.out.println("Площадь любой формы: " + shape.calcSquare());
+        //Shape shape = new Shape("Myshape" , "black");
+        //System.out.println("Площадь любой формы: " + shape.calcSquare());
 
 
     }

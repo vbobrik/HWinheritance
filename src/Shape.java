@@ -1,4 +1,4 @@
-public class Shape {
+public abstract class Shape {
 
     private String name;
     private String color;
@@ -26,8 +26,6 @@ public class Shape {
         this.color = color;
     }
 
-    public double calcSquare() {
-        return width * height;
-    }
+    public abstract double calcSquare();
 
 }
